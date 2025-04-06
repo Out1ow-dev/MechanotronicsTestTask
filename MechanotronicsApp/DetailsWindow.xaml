@@ -1,0 +1,44 @@
+<Window x:Class="MechanotronicsApp.DetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Детали" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+            <Button x:Name="RefreshButton" Content="Обновить" Margin="5" Click="RefreshButton_Click"/>
+            <Button x:Name="ClearButton" Content="Очистить" Margin="5" Click="ClearButton_Click"/>
+            <Button x:Name="OpenTableButton" Content="Открыть детальную таблицу" Margin="5" Click="OpenTableButton_Click"/>
+        </StackPanel>
+
+        <DataGrid x:Name="DetailsDataGrid" 
+                  Grid.Row="1" 
+                  Margin="10" 
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserReorderColumns="False"
+                  CanUserSortColumns="True"
+                  SelectionMode="Single"
+                  SelectionUnit="FullRow">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Дата" 
+                                  Binding="{Binding Date, StringFormat=\{0:dd.MM.yyyy\}}" 
+                                  Width="*"
+                                  IsReadOnly="True"/>
+                <DataGridTextColumn Header="Количество автомобилей" 
+                                  Binding="{Binding Cars}" 
+                                  Width="*"
+                                  IsReadOnly="True"/>
+                <DataGridTextColumn Header="Количество водителей" 
+                                  Binding="{Binding Drivers}" 
+                                  Width="*"
+                                  IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window> 
