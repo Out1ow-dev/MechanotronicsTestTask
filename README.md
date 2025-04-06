@@ -3,7 +3,6 @@
 ## Технологии
 - .NET 9.0
 - WPF
-- EF Core
 - SQLite
 - Serilog
 - xUnit
