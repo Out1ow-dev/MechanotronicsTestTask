@@ -1,18 +1,18 @@
 ﻿MechanotronicsApp
-
+1.0.0.0
 
 winexe
 C#
 .cs
-C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-windows7.0\
+c:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-windows7.0\
 MechanotronicsApp
 none
 false
-TRACE;DEBUG;NET;NET9_0;NETCOREAPP
-C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\App.xaml
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+c:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\App.xaml
 3911892893
 
-13-167119290
+151521450919
 226-553431965
 DetailsTableWindow.xaml;DetailsWindow.xaml;MainWindow.xaml;
 

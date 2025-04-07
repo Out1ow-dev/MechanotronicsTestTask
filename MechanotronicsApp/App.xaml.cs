@@ -27,7 +27,8 @@ namespace MechanotronicsApp
         {
             services.AddSingleton<ILoggingService, LoggingService>();
             services.AddSingleton<IDatabaseService, DatabaseService>();
-            services.AddSingleton<IDataStore, DataStore>();
+            services.AddSingleton<DataStore>();
+            services.AddSingleton<IDataStore>(provider => provider.GetRequiredService<DataStore>());
             services.AddSingleton<IDataGeneratorService, DataGeneratorService>();
             services.AddTransient<MainWindow>();
             services.AddTransient<DetailsWindow>();

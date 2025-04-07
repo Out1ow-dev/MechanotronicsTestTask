@@ -1,4 +1,0 @@
-Log file created at 07.04.2025 19:44:01
-2025-04-07 19:44:01 [INFO] Loaded 25 items from database
-2025-04-07 19:44:01 [INFO] MainWindow initialized
-2025-04-07 19:44:03 [INFO] MainWindow closed
