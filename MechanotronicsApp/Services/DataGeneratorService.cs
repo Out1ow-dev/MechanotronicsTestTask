@@ -9,13 +9,14 @@ namespace MechanotronicsApp.Services
 {
     public class DataGeneratorService : IDataGeneratorService, IDisposable
     {
-        private readonly DataStore _dataStore;
+        private readonly IDataStore _dataStore;
         private readonly ILoggingService _loggingService;
         private readonly SemaphoreSlim _carSemaphore = new(1, 1);
         private readonly SemaphoreSlim _driverSemaphore = new(1, 1);
         private CancellationTokenSource _carCts = new();
         private CancellationTokenSource _driverCts = new();
         private bool _isDisposed;
+        private readonly DateTime _startTime;
 
         private readonly string[] _carNames = new[]
         {
@@ -31,10 +32,11 @@ namespace MechanotronicsApp.Services
         private int _currentCarIndex = -1;
         private int _currentDriverIndex = -1;
 
-        public DataGeneratorService(DataStore dataStore, ILoggingService loggingService)
+        public DataGeneratorService(IDataStore dataStore, ILoggingService loggingService)
         {
             _dataStore = dataStore;
             _loggingService = loggingService;
+            _startTime = DateTime.Now;
         }
 
         private string GetNextCar()
@@ -47,6 +49,14 @@ namespace MechanotronicsApp.Services
         {
             _currentDriverIndex = (_currentDriverIndex + 1) % _driverNames.Length;
             return _driverNames[_currentDriverIndex];
+        }
+
+        private DateTime GetSynchronizedTimestamp()
+        {
+            var now = DateTime.Now;
+            var elapsedTicks = now.Ticks - _startTime.Ticks;
+            var elapsedSeconds = elapsedTicks / TimeSpan.TicksPerSecond;
+            return _startTime.AddSeconds(elapsedSeconds);
         }
 
         public async Task StartCarGenerationAsync(CancellationToken cancellationToken)
@@ -69,7 +79,7 @@ namespace MechanotronicsApp.Services
                     {
                         while (!_carCts.Token.IsCancellationRequested)
                         {
-                            var timestamp = DateTime.Now;
+                            var timestamp = GetSynchronizedTimestamp();
                             var carName = GetNextCar();
                             _dataStore.AddCar(timestamp, carName);
                             await Task.Delay(2000, _carCts.Token);
@@ -77,7 +87,6 @@ namespace MechanotronicsApp.Services
                     }
                     catch (OperationCanceledException)
                     {
-
                     }
                     catch (Exception ex)
                     {
@@ -117,7 +126,7 @@ namespace MechanotronicsApp.Services
                     {
                         while (!_driverCts.Token.IsCancellationRequested)
                         {
-                            var timestamp = DateTime.Now;
+                            var timestamp = GetSynchronizedTimestamp();
                             var driverName = GetNextDriver();
                             _dataStore.AddDriver(timestamp, driverName);
                             await Task.Delay(3000, _driverCts.Token);
@@ -125,7 +134,6 @@ namespace MechanotronicsApp.Services
                     }
                     catch (OperationCanceledException)
                     {
-
                     }
                     catch (Exception ex)
                     {
@@ -174,7 +182,6 @@ namespace MechanotronicsApp.Services
             }
             catch (ObjectDisposedException)
             {
-
             }
         }
 
