@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MechanotronicsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+483ec0848853fde1ece0fadabbbb75e53801c858")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MechanotronicsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MechanotronicsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

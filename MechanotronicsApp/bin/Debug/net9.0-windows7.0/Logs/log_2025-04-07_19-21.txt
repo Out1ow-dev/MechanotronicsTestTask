@@ -1,0 +1,229 @@
+Log file created at 07.04.2025 19:21:41
+2025-04-07 19:21:41 [ERROR] Error loading data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+2025-04-07 19:21:41 [ERROR] Error loading initial data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+   at MechanotronicsApp.MainWindow.LoadInitialData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\MainWindow.xaml.cs:line 49
+2025-04-07 19:21:42 [INFO] MainWindow initialized
+2025-04-07 19:21:43 [INFO] Car generation started
+2025-04-07 19:21:43 [INFO] Car Мондео added at 07.04.2025 19:21:43
+2025-04-07 19:21:43 [ERROR] Error loading data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+2025-04-07 19:21:43 [ERROR] Error refreshing data
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+   at MechanotronicsApp.Data.DataStore.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Data\DataStore.cs:line 57
+   at MechanotronicsApp.MainWindow.RefreshData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\MainWindow.xaml.cs:line 72
+2025-04-07 19:21:44 [INFO] Driver generation started
+2025-04-07 19:21:44 [INFO] Driver Петр added at 07.04.2025 19:21:44
+2025-04-07 19:21:44 [ERROR] Error loading data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+2025-04-07 19:21:44 [ERROR] Error refreshing data
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+   at MechanotronicsApp.Data.DataStore.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Data\DataStore.cs:line 57
+   at MechanotronicsApp.MainWindow.RefreshData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\MainWindow.xaml.cs:line 72
+2025-04-07 19:21:45 [INFO] Car Крета added at 07.04.2025 19:21:45
+2025-04-07 19:21:45 [ERROR] Error loading data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+2025-04-07 19:21:45 [ERROR] Error refreshing data
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+   at MechanotronicsApp.Data.DataStore.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Data\DataStore.cs:line 57
+   at MechanotronicsApp.MainWindow.RefreshData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\MainWindow.xaml.cs:line 72
+2025-04-07 19:21:46 [ERROR] Error loading data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+2025-04-07 19:21:46 [ERROR] Error refreshing data
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+   at MechanotronicsApp.Data.DataStore.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Data\DataStore.cs:line 57
+   at MechanotronicsApp.MainWindow.RefreshData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\MainWindow.xaml.cs:line 72
+2025-04-07 19:21:47 [WARNING] Car generation is already running
+2025-04-07 19:21:47 [INFO] Car generation started
+2025-04-07 19:21:47 [INFO] Driver Василий added at 07.04.2025 19:21:47
+2025-04-07 19:21:47 [WARNING] Driver generation is already running
+2025-04-07 19:21:47 [INFO] Driver generation started
+2025-04-07 19:21:47 [INFO] Car Приус added at 07.04.2025 19:21:47
+2025-04-07 19:21:47 [ERROR] Error loading data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+2025-04-07 19:21:47 [ERROR] Error refreshing data
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+   at MechanotronicsApp.Data.DataStore.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Data\DataStore.cs:line 57
+   at MechanotronicsApp.MainWindow.RefreshData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\MainWindow.xaml.cs:line 72
+2025-04-07 19:21:48 [ERROR] Error loading data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+2025-04-07 19:21:48 [ERROR] Error refreshing data
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+   at MechanotronicsApp.Data.DataStore.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Data\DataStore.cs:line 57
+   at MechanotronicsApp.MainWindow.RefreshData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\MainWindow.xaml.cs:line 72
+2025-04-07 19:21:49 [INFO] Car УАЗик added at 07.04.2025 19:21:49
+2025-04-07 19:21:49 [ERROR] Error loading data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+2025-04-07 19:21:49 [ERROR] Error refreshing data
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+   at MechanotronicsApp.Data.DataStore.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Data\DataStore.cs:line 57
+   at MechanotronicsApp.MainWindow.RefreshData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\MainWindow.xaml.cs:line 72
+2025-04-07 19:21:50 [INFO] Car generation stopped
+2025-04-07 19:21:50 [INFO] Driver Николай added at 07.04.2025 19:21:50
+2025-04-07 19:21:50 [INFO] Driver generation stopped
+2025-04-07 19:21:50 [ERROR] Error loading data from database
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+2025-04-07 19:21:50 [ERROR] Error refreshing data
+Exception: code = Error (1), message = System.Data.SQLite.SQLiteException (0x87AF001F): SQL logic error
+1st ORDER BY term does not match any column in the result set
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, SQLiteCommand command, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader()
+   at MechanotronicsApp.Services.DatabaseService.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Services\DatabaseService.cs:line 149
+   at MechanotronicsApp.Data.DataStore.GetAllData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\Data\DataStore.cs:line 57
+   at MechanotronicsApp.MainWindow.RefreshData() in C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\MainWindow.xaml.cs:line 72
+2025-04-07 19:21:51 [INFO] MainWindow closed

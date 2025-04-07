@@ -11,14 +11,14 @@ namespace MechanotronicsApp
 {
     public partial class MainWindow : Window
     {
-        private readonly DataStore _dataStore;
+        private readonly IDataStore _dataStore;
         private readonly IDataGeneratorService _generatorService;
         private readonly ILoggingService _loggingService;
         private readonly IDatabaseService _databaseService;
         private readonly DispatcherTimer _timer;
         private readonly ObservableCollection<DataItem> _items;
 
-        public MainWindow(DataStore dataStore, IDataGeneratorService generatorService, 
+        public MainWindow(IDataStore dataStore, IDataGeneratorService generatorService, 
             ILoggingService loggingService, IDatabaseService databaseService)
         {
             InitializeComponent();

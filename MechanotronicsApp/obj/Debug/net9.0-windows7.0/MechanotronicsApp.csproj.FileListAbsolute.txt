@@ -73,7 +73,6 @@ C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-
 C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-windows7.0\MechanotronicsApp.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-windows7.0\MechanotronicsApp.AssemblyInfo.cs
 C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-windows7.0\MechanotronicsApp.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-windows7.0\MechanotronicsApp.sourcelink.json
 C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-windows7.0\Mechanot.305DC885.Up2Date
 C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-windows7.0\MechanotronicsApp.dll
 C:\Users\User\Desktop\MechanotronicsTestTask\MechanotronicsApp\obj\Debug\net9.0-windows7.0\refint\MechanotronicsApp.dll

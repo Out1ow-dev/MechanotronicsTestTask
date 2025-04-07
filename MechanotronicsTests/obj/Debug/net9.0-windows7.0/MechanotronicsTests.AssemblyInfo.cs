@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MechanotronicsTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+483ec0848853fde1ece0fadabbbb75e53801c858")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MechanotronicsTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MechanotronicsTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

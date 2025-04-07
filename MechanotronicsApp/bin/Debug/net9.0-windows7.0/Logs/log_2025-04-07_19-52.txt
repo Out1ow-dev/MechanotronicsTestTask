@@ -1,0 +1,33 @@
+Log file created at 07.04.2025 19:52:09
+2025-04-07 19:52:09 [INFO] Loaded 0 items from database
+2025-04-07 19:52:09 [INFO] MainWindow initialized
+2025-04-07 19:52:11 [INFO] Car generation started
+2025-04-07 19:52:11 [INFO] Car Мондео added at 07.04.2025 19:52:10
+2025-04-07 19:52:11 [INFO] Driver generation started
+2025-04-07 19:52:11 [INFO] Driver Петр added at 07.04.2025 19:52:11
+2025-04-07 19:52:13 [INFO] Car Крета added at 07.04.2025 19:52:12
+2025-04-07 19:52:14 [INFO] Driver Василий added at 07.04.2025 19:52:14
+2025-04-07 19:52:15 [INFO] Car Приус added at 07.04.2025 19:52:14
+2025-04-07 19:52:17 [INFO] Car УАЗик added at 07.04.2025 19:52:16
+2025-04-07 19:52:17 [INFO] Driver Николай added at 07.04.2025 19:52:17
+2025-04-07 19:52:19 [INFO] Car Вольво added at 07.04.2025 19:52:18
+2025-04-07 19:52:21 [INFO] Driver Марина added at 07.04.2025 19:52:20
+2025-04-07 19:52:21 [INFO] Car Фокус added at 07.04.2025 19:52:20
+2025-04-07 19:52:23 [INFO] Car Октавия added at 07.04.2025 19:52:22
+2025-04-07 19:52:24 [INFO] Driver Феодосий added at 07.04.2025 19:52:23
+2025-04-07 19:52:25 [INFO] Car Запорожец added at 07.04.2025 19:52:24
+2025-04-07 19:52:27 [INFO] Driver Карина added at 07.04.2025 19:52:26
+2025-04-07 19:52:27 [INFO] Car Мондео added at 07.04.2025 19:52:26
+2025-04-07 19:52:29 [INFO] Car Крета added at 07.04.2025 19:52:28
+2025-04-07 19:52:30 [INFO] Driver Петр added at 07.04.2025 19:52:29
+2025-04-07 19:52:31 [INFO] Car Приус added at 07.04.2025 19:52:30
+2025-04-07 19:52:33 [INFO] Driver Василий added at 07.04.2025 19:52:32
+2025-04-07 19:52:33 [INFO] Car УАЗик added at 07.04.2025 19:52:32
+2025-04-07 19:52:34 [INFO] Car generation stopped
+2025-04-07 19:52:35 [INFO] Driver generation stopped
+2025-04-07 19:53:26 [INFO] Details window initialized with data
+2025-04-07 19:53:26 [INFO] Details window opened
+2025-04-07 19:53:26 [INFO] Details table window initialized
+2025-04-07 19:53:26 [INFO] Details table window opened
+2025-04-07 19:53:29 [INFO] Details table window closed
+2025-04-07 19:53:32 [INFO] MainWindow closed

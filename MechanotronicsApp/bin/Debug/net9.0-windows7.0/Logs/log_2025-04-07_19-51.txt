@@ -1,0 +1,8 @@
+Log file created at 07.04.2025 19:51:38
+2025-04-07 19:51:38 [INFO] Loaded 44 items from database
+2025-04-07 19:51:38 [INFO] MainWindow initialized
+2025-04-07 19:52:06 [INFO] Details window initialized with data
+2025-04-07 19:52:06 [INFO] Details window opened
+2025-04-07 19:52:07 [INFO] Data store cleared
+2025-04-07 19:52:07 [INFO] Data cleared in details window
+2025-04-07 19:52:08 [INFO] MainWindow closed

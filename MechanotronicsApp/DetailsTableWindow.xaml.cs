@@ -11,13 +11,13 @@ namespace MechanotronicsApp
 {
     public partial class DetailsTableWindow : Window
     {
-        private readonly DataStore _dataStore;
+        private readonly IDataStore _dataStore;
         private readonly ILoggingService _loggingService;
         private readonly IDatabaseService _databaseService;
         private readonly DispatcherTimer _timer;
         private readonly List<DataItem> _allData;
 
-        public DetailsTableWindow(DataStore dataStore, ILoggingService loggingService, IDatabaseService databaseService)
+        public DetailsTableWindow(IDataStore dataStore, ILoggingService loggingService, IDatabaseService databaseService)
         {
             InitializeComponent();
             _dataStore = dataStore;
